@@ -76,7 +76,6 @@ justify-content:left;
     align-items: center;
     margin-bottom: 2%;
 }
-.hr p{font-family:  "Ysabeau SC", serif;}
 
 .separador{
     width: 30%;
@@ -137,7 +136,7 @@ justify-content:left;
     display: flex;
     justify-content:space-around;
     align-items:center;
-    
+    font-family:"Ysabeau SC", serif;
 }
 
 
@@ -172,9 +171,6 @@ justify-content:left;
     align-items: center;
     margin-bottom: 2%;
     }
-.hrTienda p{
-    font-family:  "Ysabeau SC", serif;
-}
 
 .separadorTienda{
     width: 30%;
@@ -218,7 +214,7 @@ justify-content:left;
     justify-items: center;
 }
 
-            /*Empieza main nosotros*/
+/*EMPIEZA main nosotros*/
 #mainNosotros{
     /*para que el footer se mantenga abajo*/
     min-height: 100vh;
@@ -241,7 +237,7 @@ justify-content:left;
     align-items: center;
     margin-bottom: 2%;
 }
-.hrContacto p{font-family:  "Ysabeau SC", serif;}
+
 
 .separadorContacto{
     width: 30%;
@@ -287,3 +283,24 @@ justify-content:left;
     left: 100px;
 }
 
+/*EMPIEZA CSS DE TARJETAS blog y main blog*/
+#mainBlog{
+    /*para que el footer se mantenga abajo*/
+    min-height: 100vh;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+
+.hrBlog{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+    }
+
+
+.separadorBlog{
+    width: 30%;
+    height: 0px;
+}
