@@ -10,13 +10,21 @@ a{
     color: black;
 }
 /*HEADER*/
-#enlaces {
-    display: flex; /*Flexbox para alinear los elementos */
-    flex-direction: column; /* Los elementos se apilan verticalmente */
-    align-items: center; /* Centra los enlaces horizontalmente */
-    padding: 10px;
-    
+#enlaces{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+#enlaces a {
+display: flex;
+justify-content:left;
+}
+
+#enlaces i{
+    font-size:40px ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} /*no me convence los enlaces, reever*/
 
 .headerInicio{
     text-decoration: none;
