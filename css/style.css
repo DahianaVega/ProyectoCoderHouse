@@ -77,13 +77,27 @@ justify-content:left;
     width: 100%;
     height: 100%;
 }
+.divofertas{
+width: 130px;
+height: 50px;
+background-color: #eaa36a;
+border-radius: 50%;
+margin-top: 40px;
+}
+.ofertas{
+display: flex;
+justify-content: center;
+padding-top: 15px;
+font-family: "Ysabeau SC", serif;
+font-weight: bold;
 
+}
 /*MAIN raya de articulos destacados (parrafo y hr)*/
 
 .hr{
     display: flex;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 1%;
 
 }
