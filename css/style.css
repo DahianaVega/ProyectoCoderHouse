@@ -374,5 +374,11 @@ font-weight: bold;
             margin-top: 20px;
             border-radius: 0%;
         }
-        .
+        .hr{ margin-top: 0%;
+        }
+        .tarjetas{
+        display: grid;
+        grid-template-columns: 1fr;
+        }
+        
     }
