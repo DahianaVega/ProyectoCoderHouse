@@ -277,7 +277,7 @@ font-weight: bold;
     justify-items: center;}
 
 .parrafoContacto p {
-    background-color: #eaa36a;
+    background-color: #f4b989;
     display: flex;
     position: relative;
     bottom: 200px;
@@ -330,7 +330,7 @@ font-weight: bold;
 }
 .tarjetaBlog{
     width: 300px;
-    height: 600px;
+    height: 900px;
     padding: 10px;
     margin: 10px;
     border: 1px solid #eaa36a; /* Agrega un borde de 2px de grosor y color gris */
@@ -391,4 +391,5 @@ font-weight: bold;
             height: 450px;
         }
         /*fin responsivo tienda*/
+
     }
