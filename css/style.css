@@ -341,3 +341,34 @@ font-weight: bold;
     width: 100%;
     height: 300px;}
 
+
+    /*responsive para celular parte inicio*/
+
+    @media screen and ( max-width:600px){
+        li{ margin: 0%;
+        padding: 0%;}
+        #enlaces{
+            display: flex;
+            width: 100%;
+        }
+
+        #enlaces a { 
+            display: flex;
+            justify-content: flex-start;
+        }
+        #enlaces i {
+            margin-left: 200px;
+            font-size: 30px;
+        }
+        
+        #nav ul{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            padding-inline-start: 0px;
+        }
+        #nav li{
+            padding: 0%;
+            margin: 20px 10px;
+        }
+        
+    }
