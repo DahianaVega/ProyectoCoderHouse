@@ -391,7 +391,14 @@ font-weight: bold;
             height: 450px;
         }
         /*fin responsivo tienda*/
-        .imguno{
-        
+        .seccionNosotros{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;   
+        } 
+        /*fin responsivo nosotros*/
+        .seccionDosContacto{
         }
-    }
+
+        }
