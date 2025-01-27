@@ -1,0 +1,79 @@
+  /*responsive para celular parte inicio*/
+
+  @media screen and ( max-width:600px){
+    li{ margin: 0%;
+    padding: 0%;}
+    #enlaces{
+        display: flex;
+        width: 100%;
+    }
+
+    #enlaces a { 
+        display: flex;
+        justify-content: flex-start;
+    }
+    #enlaces i {
+        margin-left: 200px;
+        font-size: 30px;
+    }
+    
+    #nav ul{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        padding-inline-start: 0px;
+    }
+    #nav li{
+        padding: 0%;
+        margin: 20px 10px;
+    }
+    .divofertas{
+        margin-top: 20px;
+        border-radius: 0%;
+    }
+    .hr{ margin-top: 0%;
+    }
+    .tarjetas{
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+    /* fin responsive de inicio*/
+    .coleccionTarjetaTienda{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+    .tarjetaTienda{
+        width: 200px;
+        height: 450px;
+    }
+    /*fin responsivo tienda*/
+    .seccionNosotros{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    } 
+    /*fin responsivo nosotros*/
+    
+    .seccionDosContacto{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .imgContacto img{
+        width:500px ;
+        height: 70%;
+    }
+    .parrafoContacto{
+        background-color: rgba(222, 180, 101, 0.463);
+    height: 100%;
+    margin-bottom: 150px;
+    }
+    /*fin responsivo contacto*/
+    .tarjetasBlog{
+        display: grid;
+        grid-template-columns: 1fr ;
+        justify-items: center;
+    }
+    
+
+}

@@ -1,0 +1,33 @@
+/*EMPIEZA CSS DE CONTACTO y main CONTACTO*/
+#mainContacto{
+    /*para que el footer se mantenga abajo*/
+    min-height: 100vh;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.hrContacto{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+
+.separadorContacto{
+    width: 30%;
+    height: 0px;
+}
+
+.seccionDosContacto{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.imgContacto img{
+    width:300% ;
+    height: 70%;
+}
+.parrafoContacto{
+    background-color: rgba(243, 244, 245, 0.768);
+height: 60%;
+}

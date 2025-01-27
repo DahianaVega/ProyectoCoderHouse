@@ -1,0 +1,55 @@
+/*EMPIEZA CSS DE TARJETAS TIENDA y main tienda*/
+
+#mainTienda{
+    /*para que el footer se mantenga abajo*/
+    min-height: 100vh;
+    text-align:center;
+    margin-left: 10px;
+    margin-right: 15px;
+    }
+.hrTienda{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+    }
+
+.separadorTienda{
+    width: 30%;
+    height: 0px;
+}
+
+#mainTienda{
+    width: 100%;
+    
+}
+.coleccionTarjetaTienda{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+.tarjetaTienda{
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #eaa36a; /* Agrega un borde de 2px de grosor y color gris */
+    border-radius: 2px; /* Redondea las esquinas del borde */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Sombra con desplazamiento y difusa */
+}
+.tarjetaTienda img{ 
+    width: 100%;
+    height: 300px;
+    transition: all 0.5s;/*efecto img transition*/
+}
+/*efecto img producto*/
+.imgTarjetaTienda{     
+    overflow: hidden;
+}
+.imgTarjetaTienda:hover img{
+    transform: scale(1.2);
+}
+/*fin efecto img producto*/
+.textoTarjetaTienda h3,p{
+    font-family:  "Ysabeau SC", serif;
+    justify-items: center;
+}

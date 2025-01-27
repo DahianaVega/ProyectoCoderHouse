@@ -1,0 +1,24 @@
+/*EMPIEZA main nosotros*/
+#mainNosotros{
+    /*para que el footer se mantenga abajo*/
+    min-height: 100vh;
+    text-align:center;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.hrNosotros{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+
+.separadorNosotros{
+    width: 30%;
+    height: 0px;
+}
+.imgNosotros{
+    display: flex;
+    justify-content: center;
+}
