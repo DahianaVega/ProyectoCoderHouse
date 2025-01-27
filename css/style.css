@@ -24,7 +24,7 @@ justify-content:left;
 #enlaces i{
     font-size:40px ;
     display: flex;
-    justify-content: flex-end;
+    justify-content: right;
     align-items: center;
 } /*no me convence los enlaces, reever*/
 
