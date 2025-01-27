@@ -246,6 +246,23 @@ a {
   margin-right: 15px;
 }
 
+.hrNosotros {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.separadorNosotros {
+  width: 30%;
+  height: 0px;
+}
+
+.imgNosotros {
+  display: flex;
+  justify-content: center;
+}
+
 /*EMPIEZA CSS DE CONTACTO y main CONTACTO*/
 #mainContacto {
   /*para que el footer se mantenga abajo*/
