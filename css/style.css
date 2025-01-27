@@ -262,43 +262,18 @@ font-weight: bold;
     height: 0px;
 }
 
-.seccionDosContacto {
-    width: 1000px;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    padding-left: 18%;
-    
-    
+.seccionDosContacto{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+   
 }
-.imgContacto{
-    display: flex;
-    padding-left: 10%;
-    justify-items: center;}
-
-.parrafoContacto p {
-    background-color: #f4b989;
-    display: flex;
-    position: relative;
-    bottom: 200px;
-    left: 100px;
-    margin: 20px;
+.imgContacto img{
+    width:300% ;
+    height: 70%;
 }
-
-
-.parrafoContactoymapa{
-    position: relative;
-    left: 40px;
-    display: flex;
-
-}
-
-.parrafoContactoymapa iframe{
-    margin-left: 10%;
-    display: flex;
-    position: relative;
-    bottom: 400px;
-    left: 100px;
+.parrafoContacto{
+    background-color: rgba(243, 244, 245, 0.768);
+height: 60%;
 }
 
 /*EMPIEZA CSS DE TARJETAS blog y main blog*/
@@ -398,7 +373,26 @@ font-weight: bold;
             align-items: center;   
         } 
         /*fin responsivo nosotros*/
+        
         .seccionDosContacto{
+            display: grid;
+            grid-template-columns: 1fr;
         }
+        .imgContacto img{
+            width:500px ;
+            height: 70%;
+        }
+        .parrafoContacto{
+            background-color: rgba(222, 180, 101, 0.463);
+        height: 100%;
+        margin-bottom: 150px;
+        }
+        /*fin responsivo contacto*/
+        .tarjetasBlog{
+            display: grid;
+            grid-template-columns: 1fr ;
+            justify-items: center;
+        }
+        
 
-        }
+    }
