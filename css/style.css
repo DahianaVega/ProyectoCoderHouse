@@ -147,34 +147,6 @@ a {
 }
 
 /* Efecto hover en la tarjeta */
-/*FOOTER*/
-#footer {
-  margin-top: auto;
-  width: 100%;
-  height: 250px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-family: "Ysabeau SC", serif;
-}
-
-.footerNav {
-  text-align: center;
-  font-size: 15px;
-}
-
-.footerNav a {
-  color: #eaa36a;
-}
-
-.footerNav-copy h2 {
-  font-size: 15px;
-}
-
-.footerRedes {
-  font-size: 50px;
-}
-
 /*EMPIEZA CSS DE TARJETAS TIENDA y main tienda*/
 #mainTienda {
   /*para que el footer se mantenga abajo*/
@@ -336,6 +308,34 @@ a {
 .imgTarjetaBlog img {
   width: 100%;
   height: 300px;
+}
+
+/*FOOTER*/
+#footer {
+  margin-top: auto;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Ysabeau SC", serif;
+}
+
+.footerNav {
+  text-align: center;
+  font-size: 15px;
+}
+
+.footerNav a {
+  color: #eaa36a;
+}
+
+.footerNav-copy h2 {
+  font-size: 15px;
+}
+
+.footerRedes {
+  font-size: 50px;
 }
 
 /*responsive para celular parte inicio*/
