@@ -337,7 +337,8 @@ a {
 }
 
 .footerNav a {
-  color: #eaa36a;
+  color: #c15f10;
+  font-weight: bold;
 }
 
 .footerNav-copy h2 {
@@ -424,6 +425,20 @@ a {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
+  }
+  #footer {
+    flex-direction: column;
+  }
+  .footerNav a {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerNav ul {
+    padding: 0%;
+  }
+  .footerNav-copy {
+    display: flex;
+    justify-content: center;
   }
 }
 

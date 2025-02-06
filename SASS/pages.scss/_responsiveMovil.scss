@@ -80,5 +80,18 @@
         justify-items: center;
     }
     
-
+    #footer{
+        flex-direction: column;
+    }
+    .footerNav a{
+        display: flex;
+        flex-direction: column;
+    }
+    .footerNav ul{
+        padding: 0%;
+    }
+    .footerNav-copy{
+        display: flex;
+        justify-content: center;
+    }
 }
