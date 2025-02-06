@@ -392,11 +392,11 @@ a {
   /* fin responsive de inicio*/
   .coleccionTarjetaTienda {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-content: center;
   }
   .tarjetaTienda {
-    width: 200px;
+    width: 250px;
     height: 450px;
   }
   /*fin responsivo tienda*/
