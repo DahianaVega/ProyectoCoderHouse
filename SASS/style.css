@@ -412,8 +412,12 @@ a {
     grid-template-columns: 1fr;
   }
   .imgContacto img {
-    width: 500px;
-    height: 70%;
+    width: 100%;
+    height: 100%;
+  }
+  .mapaContacto iframe {
+    width: 100%;
+    height: 100%;
   }
   .parrafoContacto {
     background-color: rgba(222, 180, 101, 0.463);
