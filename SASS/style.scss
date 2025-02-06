@@ -1,9 +1,14 @@
+
+// ESTILOS RESET
 @use "pages.scss/reset";
+// ESTILOS PAGES
 @use "pages.scss/inicio";
 @use "pages.scss/tienda";
 @use "pages.scss/nosotros";
 @use "pages.scss/contactos";
 @use "pages.scss/blog";
+// ESTILOS FOOTER
 @use "pages.scss/footer";
+// ESTILOS RESPONSIVOS
 @use "pages.scss/responsiveMovil";
 
