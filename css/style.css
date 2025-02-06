@@ -349,7 +349,7 @@ a {
 }
 
 /*responsive para celular parte inicio*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   li {
     margin: 0%;
     padding: 0%;
@@ -357,27 +357,29 @@ a {
   #enlaces {
     display: flex;
     width: 100%;
+    justify-content: space-between;
   }
   #enlaces a {
     display: flex;
     justify-content: flex-start;
   }
   #enlaces i {
-    margin-left: 200px;
+    margin-left: 0px;
     font-size: 30px;
   }
   #nav ul {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding-inline-start: 0px;
+    grid-template-columns: 1fr;
+    padding: 0%;
   }
   #nav li {
     padding: 0%;
-    margin: 20px 10px;
+    margin: 5px 5px;
   }
   .divofertas {
-    margin-top: 20px;
+    margin-top: 120px;
     border-radius: 0%;
+    margin-bottom: 140px;
   }
   .hr {
     margin-top: 0%;
