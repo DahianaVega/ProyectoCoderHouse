@@ -22,9 +22,11 @@ a {
 #enlaces i {
   font-size: 40px;
   display: flex;
-  justify-content: right;
+  flex: flex-end;
   align-items: center;
-} /*no me convence los enlaces, reever*/
+}
+
+/*no me convence los enlaces, reever*/
 .headerInicio {
   text-decoration: none;
   padding: 5px;

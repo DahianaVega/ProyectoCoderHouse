@@ -2,16 +2,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-#enlaces a {
+#enlaces a{
 display: flex;
 justify-content:left;
 }
 #enlaces i{
     font-size:40px ;
     display: flex;
-    justify-content: right;
+    flex: flex-end;
     align-items: center;
-} /*no me convence los enlaces, reever*/
+}
+/*no me convence los enlaces, reever*/
 
 .headerInicio{
     text-decoration: none;
