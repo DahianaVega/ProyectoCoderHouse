@@ -24,6 +24,7 @@ a {
   display: flex;
   flex: flex-end;
   align-items: center;
+  padding-left: 80%;
 }
 
 /*no me convence los enlaces, reever no se mueve el bolso de la tienda para la derecha*/
