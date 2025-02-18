@@ -12,7 +12,7 @@ justify-content:left;
     flex: flex-end;
     align-items: center;
 }
-/*no me convence los enlaces, reever*/
+/*no me convence los enlaces, reever no se mueve el bolso de la tienda para la derecha*/
 
 .headerInicio{
     text-decoration: none;
@@ -106,7 +106,7 @@ font-weight: bold;
     height: 400px;
     padding: 20px;
     margin: 10px;
-    border: 1px solid #000000; /* Agrega un borde de 2px de grosor y color gris */
+    border: 1px solid #000000; /* Agrega un borde de 2px de grosor y color negro */
     border-radius: 2px; /* Redondea las esquinas del borde */
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Sombra con desplazamiento y difusa */
 }
