@@ -22,7 +22,7 @@
     
     #nav ul{
         display:grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
         padding: 0%;
     }
     #nav li{
@@ -58,6 +58,9 @@
         justify-content: center;
         align-items: center;   
     } 
+    .imgdos img{
+        display: none;
+    }
     /*fin responsivo nosotros*/
     
     .seccionDosContacto{

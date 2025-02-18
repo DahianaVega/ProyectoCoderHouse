@@ -235,11 +235,12 @@ a {
   width: 100%;
 }
 
-.imgdos img {
-  display: none;
+.imguno img {
+  width: 450px;
+  height: 400px;
 }
 
-.imguno img {
+.imgdos img {
   width: 450px;
   height: 400px;
 }
@@ -405,6 +406,9 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .imgdos img {
+    display: none;
   }
   /*fin responsivo nosotros*/
   .seccionDosContacto {
