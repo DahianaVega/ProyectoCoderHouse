@@ -1,6 +1,7 @@
 #enlaces{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 100%;
 }
 #enlaces a{
 display: flex;
@@ -9,9 +10,9 @@ justify-content:left;
 #enlaces i{
     font-size:40px ;
     display: flex;
-    flex: flex-end;
     align-items: center;
-    padding-left: 80%;
+    justify-content: left;
+    margin-left: 80%;
 }
 /*no me convence los enlaces, reever no se mueve el bolso de la tienda para la derecha*/
 
